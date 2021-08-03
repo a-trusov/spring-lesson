@@ -1,7 +1,9 @@
 package lesson1.services;
 
 import lesson1.dao.SimpleDAO;
+import org.springframework.stereotype.Service;
 
+@Service
 public class SimpleServiceImpl implements SimpleService {
 
     private SimpleDAO dao;
